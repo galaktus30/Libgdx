@@ -23,6 +23,7 @@ public class TutorialClickerGame extends Game {
 	 */
 
 	// test
+	// kolejny test
 
 	public boolean isPaused() {
 		return paused;
