@@ -20,10 +20,6 @@ public class GameplayScreen extends AbstractScreen {
 	private void initPlayer() {
 		player = new Player();
 		stage.addActor(player);
-		spriteBatch.begin();
-		stage.draw();
-
-		spriteBatch.end();
 
 	}
 
@@ -31,6 +27,10 @@ public class GameplayScreen extends AbstractScreen {
 	public void render(float delta) {
 		super.render(delta);
 		update();
+		spriteBatch.begin();
+		stage.draw();
+
+		spriteBatch.end();
 
 	}
 
