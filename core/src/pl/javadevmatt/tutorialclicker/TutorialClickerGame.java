@@ -22,6 +22,8 @@ public class TutorialClickerGame extends Game {
 	 * ---------------------- -getters and setters-- ----------------------
 	 */
 
+	// test
+
 	public boolean isPaused() {
 		return paused;
 	}
