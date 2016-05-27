@@ -16,7 +16,7 @@ public class Player extends Image {
 		super(new Texture("badlogic.jpg"));
 		this.setOrigin(WIDHT / 2, HEIGHT / 2);
 		this.setSize(WIDHT, HEIGHT);
-
+		//
 		this.setPosition(STARTING_X, STARTING_Y);
 	}
 }
