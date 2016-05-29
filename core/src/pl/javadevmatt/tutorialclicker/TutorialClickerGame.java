@@ -10,9 +10,10 @@ public class TutorialClickerGame extends Game {
 
 	public final static int WIDTH = 480;
 	public final static int HEIGHT = 700;
-	// gyyy
+
 	private boolean paused;
 
+	// reg
 	@Override
 	public void create() {
 		this.setScreen(new SplashScreen(this));
